@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Be Healthy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/styles.css" rel="stylesheet" media="screen">
+  </head>
+  <body id="main">
+    <div class="container">
+   	 <a href="index.html"><h1>Be healthy<img src="img/logo.png"></h1></a>
+     <div class="tabs-left">
+          <ul class="nav nav-tabs">
+           <li ><a href="motivate.html">Take control.</a></li>
+           <li><a href="tips.html" >Feel good.</a></li>
+           <li><a href="eat.html">Better you.</a></li>
+           <li class="active"><a href="bmi.html">calculate</a></li>
+          </ul>
+          
+          <div class="tab-content">
+           
+            
+            <div class="tab-pane active" id="tab4">
+                 <div id="wrapper">
+                 	<h2>Calculate your BMI.</h2>
+                    <div id="calculator">
+                        <form name="bmi">
+                        <div>
+                            <h3>weight</h3>
+                            <input type="number" name="weight" />
+                            <select name="weight-unit"><option>kg</option><option>lb</option></select>
+                        </div>
+                        <div>
+                            <h3>height</h3>
+                            <input type="number" name="height" />
+                            <select name="height-unit"><option>m</option><option>in</option><option>ft</option></select>
+                        </div>
+                        <input type="button" name="calculate" value="calculate" />
+                        </form>
+                    </div>
+                    <div id="result"></div>
+            	</div>
+            </div><!--end tab4-->
+            
+          </div>
+      
+      
+   	 </div>
+	
+    <footer>Before any life changes, talk to your doctor. Site content subject to change.</footer>
+    
+    
+    </div>
+	<script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/bmi.js"></script>
+  </body>
+</html>

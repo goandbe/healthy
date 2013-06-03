@@ -4188,7 +4188,7 @@ input[type="submit"].btn.btn-mini {
 
 .tabs-left > .nav-tabs > li > a {
   margin-right: -1px;
-
+	margin-left: -20px;
 		  
 }
 
@@ -4201,13 +4201,14 @@ input[type="submit"].btn.btn-mini {
 .tabs-left > .nav-tabs .active > a:hover,
 .tabs-left > .nav-tabs .active > a:focus {
   border-right-color: none;
-  width: 0;
+  width: 80px;
 	height: 0;
 	border-top: 25px solid transparent;
 	border-right: 50px solid #FFF;
 	border-bottom: 25px solid transparent;
 	background: transparent;
-	Padding: 0 25px 0 12px;
+	Padding: 0 10px 0 0;
+	margin-left: -9px;
 	}
 
 
@@ -6050,7 +6051,7 @@ a.badge:focus {
 	}
 #splash {
 	margin-top:100px;
-	width: 500px;
+	width: 600px;
 	overflow:hidden;
 	}
 #splash h3,
@@ -6061,12 +6062,27 @@ a.badge:focus {
 	text-align:center;
 	color:#fff;
 	}
+#take{
+	background: url(../img/control.png) no-repeat 500px 58px;
+	}
+#better{
+background: url(../img/better.png) no-repeat 478px 70px;
+}
+#good{
+background: url(../img/good.png) no-repeat 472px 53px;
+}
 #splash a:hover{
 	text-decoration: none;
 	}
 #splash h3:hover,
 #splash h2:hover{
 	opacity:.8;
+	}
+#splash h2{
+	margin-left: 95px;
+	}
+#splash h2 > img{
+	margin-left: 16px;
 	}
 /*end splash page*/
 
@@ -6119,16 +6135,17 @@ footer{
 	color: #fff;
 	font-style: italic;
 	}
+ a:hover{
+	text-decoration: none;
+	}
 h1{
 	margin: 30px 0 25px 120px;
 	font-size: 5em;
 	color:#fff;
 	}
 h1 > img {
-	background-color:rgba(255,255,255,.65);
-	padding: 10px 18px 15px 18px;
-	margin-left: 10px;
-	border-radius: 50%;
+	height: 80px;
+	margin-left: 15px;
 	}
 .twoup{
 	display: block;
